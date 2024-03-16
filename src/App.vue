@@ -1,8 +1,12 @@
 <script setup lang="ts">
-  import HelloWorld from './components/HelloWorld.vue'
+  import Header from './components/Header.vue'
+  import CardUser from './components/CardUser.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <Header />
+  <div>
+    <CardUser />
+  </div>
 </template>
 
